@@ -355,8 +355,10 @@ export default DS.Serializer.extend({
 
    console.log('id: ' + id);
    console.log('type: ' + type);
-   console.log('attrs: ' + attrs);
-   console.log('rels: ' + rels);
+   console.log('attrs: ');
+   console.log(attrs);
+   console.log('rels: ');
+   console.log(rels);
 
     return {
         id:            id,
